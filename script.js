@@ -2,7 +2,7 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 //to add grid to hold the information
-addEmployeesBtn.addEvenetListener('click', function() {
+addEmployeesBtn.addEventListener('click', function() {
  //const userFirstName = prompt( 'Add First Name' );
  //const userLastName = prompt ( 'Add Last Name' );
  //const userSalary = prompt ( 'Add Salary' );
@@ -19,7 +19,7 @@ const collectEmployees = function() {
       let employeeSalary = prompt('Add Salary');
 
       let salary = 0;
-      let _tsalary = prompt('Get Salary');
+      let _tsalary = prompt("Get Salary");
 
       salary = (isNaN(_tsalary) || _tsalary === null) ? 0 : Number(_tsalary);
       employees.push ({
@@ -43,7 +43,7 @@ const displayAverageSalary = function(employeesArray) {
   //sets the average variable; the total was found by taking the total salary range and dividing it by the entire array length
   const current = employeesArray.length;
   //sets the current variable to be the array after employees are added, and let that be equal to the total length of this returned array
-  console.log(`The average employee salary between our ${current} employee(s) is ${averageSalary.toLocaleString("en-US", {style: "currency", currency: USD})}`);
+  console.log(`The average employee salary between our ${current} employee(s) is ${averageSalary.toLocaleString("en-US", {style: "currency", currency: "USD"})}`);
   
   // TODO: Calculate and display the average salary
 }
@@ -52,7 +52,7 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   const randomIndex = Math.floor(Math.random() * employeesArray.length);
   //calulates the random index selectionin the array using the math.floor(math.random) times the employee array length
-  const randomEmployye = employeesArray[randomIndex];
+  const randomEmployee = employeesArray[randomIndex];
   //sets the variable for the random employee selection and made it equal t the returned array and index
   console.log(`Congrats! You are the winner! ${randomEmployee.firstName}`);
   //computer is set to log a congrats message to the employee winner using the object key value pair of the array and first name of the random employee
