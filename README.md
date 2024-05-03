@@ -16,10 +16,10 @@ N/A
 This website will be used for storing employees names and salaries using the button and a grid! 
 ![alt text](develop/images/employeetracker.jpg)
 
-once you click the button, a pop up will show up that you type in
-![alt text](develop/images/empolyeetracker2.jpg)
+once you click the button, a pop up will show up that you type in.
+![alt text](develop/images/employeetracker2.jpg)
 
-once you have added all your employees they will show up in a grid
+once you have added all your employees they will show up in a grid.
 ![alt text](develop/images/employeetracker3.jpg)
 
 then you can then right click and inspect andsee in the console, the avarge salary and a random employee will be chosen!
