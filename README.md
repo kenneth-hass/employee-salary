@@ -13,7 +13,8 @@ N/A
 
 ## Usage
 
-This website will be used for storing employees names and salaries using the button and a grid! ![alt text](develop/images/employeetracker.jpg)
+This website will be used for storing employees names and salaries using the button and a grid! 
+![alt text](develop/images/employeetracker.jpg)
 
 once you click the button, a pop up will show up that you type in
 ![alt text](develop/images/empolyeetracker2.jpg)
